@@ -1,0 +1,11 @@
+C:\Users\drishi\Downloads\TenantsAngular\RealEstate\Tenant\bin\TenantManagement.dll.config
+C:\Users\drishi\Downloads\TenantsAngular\RealEstate\Tenant\bin\TenantManagement.dll
+C:\Users\drishi\Downloads\TenantsAngular\RealEstate\Tenant\bin\TenantManagement.pdb
+C:\Users\drishi\Downloads\TenantsAngular\RealEstate\Tenant\obj\Debug\TenantManagement.dll
+C:\Users\drishi\Downloads\TenantsAngular\RealEstate\Tenant\obj\Debug\TenantManagement.pdb
+C:\Users\drishi\Downloads\TenantsAngular\TenantManagement\Tenant\bin\TenantManagement.dll.config
+C:\Users\drishi\Downloads\TenantsAngular\TenantManagement\Tenant\bin\TenantManagement.dll
+C:\Users\drishi\Downloads\TenantsAngular\TenantManagement\Tenant\bin\TenantManagement.pdb
+C:\Users\drishi\Downloads\TenantsAngular\TenantManagement\Tenant\obj\Debug\TenantsManagement.csprojResolveAssemblyReference.cache
+C:\Users\drishi\Downloads\TenantsAngular\TenantManagement\Tenant\obj\Debug\TenantManagement.dll
+C:\Users\drishi\Downloads\TenantsAngular\TenantManagement\Tenant\obj\Debug\TenantManagement.pdb

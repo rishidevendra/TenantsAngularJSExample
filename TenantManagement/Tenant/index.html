@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Tenant Details</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Tenants/site.css" rel="stylesheet" />
+</head>
+<body ng-app="tenantsApp" class="ng-scope">
+    <div class="panel panel-default">
+        <div class="panel-heading" style="text-align:center"> <h1> <b>
+            Tentant Details
+            </b> </h1>
+        </div>
+        <div class="container" ng-controller="tenantsController" ngcloak>
+            <h1>Tenants Details</h1>
+            <div class="row">
+                <div>
+                    <button class="btn btn-primary" ng-click="previousTenant()">
+                        Previous
+                    </button>
+                    <button class="btn btn-primary" ng-click="nextTenant()">
+                        Next
+                    </button>
+                    <button class="btn btn-success" ng-click="addTenant()">
+                        Add
+                    </button>
+                    <button class="btn btn-danger" ng-click="deleteTenant()">
+                        Delete
+                    </button>
+                    <br style="clear:both">
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <div  ng-repeat="tenant in tenant">
+
+                    <table border="0" class="pull-left">
+                        <tr>
+                            <td width="100">First Name: </td>
+                            <td>
+                                <input type="text" ng-model="tenant.FirstName" placeholder="Enter a first name ">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Last Name: </td>
+                            <td>
+                                <input type="text" ng-model="tenant.LastName" placeholder="Enter a last name ">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Company: </td>
+                            <td>
+                                <input type="text" ng-model="tenant.Company" placeholder="Enter a company name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Job Title: </td>
+                            <td>
+                                <input type="text" ng-model="tenant.JobTitle" placeholder="Enter a job title">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Business Phone: </td>
+                            <td>
+                                <input type="text" ng-model="tenant.BusinessPhone" placeholder="Enter a Business">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Home Phone: </td>
+                            <td>
+                                <input type="text" ng-model="tenant.HomePhone" placeholder="Enter a home phone">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Mobile Phone: </td>
+                            <td>
+                                <input type="text" ng-model="tenant.MobilePhone" placeholder="Enter a mobile phone">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Street: </td>
+                            <td>
+                                <input type="text" ng-model="tenant.Street" placeholder="Enter a street">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>City: </td>
+                            <td>
+                                <input type="text" ng-model="tenant.City" placeholder="Enter a city">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>State: </td>
+                            <td>
+                                <input type="text" ng-model="tenant.State" placeholder="Enter a state">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Country: </td>
+                            <td>
+                                <input type="text" ng-model="tenant.Country" placeholder="Enter a country">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Email: </td>
+                            <td>
+                                <input type="text" ng-model="tenant.Email" placeholder="Enter a Email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>WebPage: </td>
+                            <td>
+                                <input type="text" ng-model="tenant.WebPage" placeholder="Enter a WebPage">
+                            </td>
+                        </tr>
+                       
+                    </table>
+                    <table border="0">                        
+                        <tr>
+                            <td >
+                                <h1>Hello {{tenant.FirstName}} {{tenant.LastName}}!</h1>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/angular.js"></script>
+    <script src="Tenants/tenants.js"></script>
+    <script src="Tenants/controllers/tenantsController.js"></script>
+    <script src="Tenants/services/tenantService.js"></script>
+</body>
+</html>
